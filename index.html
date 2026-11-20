@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy Restaurant</title>
+
+    <!-- libarary-1 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- libarary-2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- ############### header ############# -->
+    <header class="header">
+        <div class="container">
+
+            <a class="logo" href="#hero">Yummy<span>.</span></a>
+    <!-- ############### nav bar ############# -->
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a class="active" href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#chefs">Chefs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+
+                    <!-- ############### dropdown ############# -->
+                    <li class="dropdown">
+                        <a href="#">Dropdown <i class="fa-solid fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Dropdown 1</a></li>
+
+                            <!-- deep dropdown -->
+                            <li class="deep-dropdown">
+                                <a href="#">Deep Dropdown <i class="fa-solid fa-chevron-down"></i></a>
+                                <ul class="deep-menu">
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <a class="nav-button" href="#book-a-table">Book a Table</a>
+            <!-- hamburger icon -->
+             <i class="fa-solid fa-bars menu-icon"></i>
+
+        </div>
+    </header>
+
+<!-- ################## hero section#################### -->
+    <section id="hero" class="hero">
+    <div class="container">
+    
+    <div class="hero-content">
+      <h1>ENJOY YOUR HEALTHY DELICIOUS FOOD</h1>
+      <p>We are team of talented designers making 
+        <br> websites with Bootstrap</p>
+      <div class="hero-buttons">
+        <a href="#book-a-table" class="btn-hero">Book a Table</a>
+        <a href="https://youtu.be/Y7f98aduVJ8?si=LWPkETxeqhr9pzBD"  class="btn-video"
+       target="_blank" rel="noopenr" > 
+       <i class="fa-solid fa-play plays"></i> Watch Video</a>
+      </div>
+    </div>
+
+
+    <div class="hero-image">
+      <img src="image/hero-img.png" alt="Delicious Food">
+    </div>
+
+  </div>
+</section>
+
+<!-- ############## about us  ############# -->
+<section class="about-section" id="about">
+  <div class="container">
+
+    <div class="section-title">
+      <h2>ABOUT Us</h2>
+      <p>Learn More <span>About Us</span></p>
+    </div>
+
+    <div class="about-us">
+        <div class="about-image">
+            <img src="image/about.jpg" alt="Restaurant dish">
+
+            <div class="about-contact">
+                <h3>Book a Table</h3>
+                <p>+1 5589 55488 55</p>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <p class="about-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <ul class="feature-list">
+                <li><i class="fa-solid fa-circle-check"></i><span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+                <li><i class="fa-solid fa-circle-check"></i><span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+                <li><i class="fa-solid fa-circle-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span> </li>
+            </ul>
+
+            <p class="about-note">
+                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+            </p>
+
+        <div class="about-video">
+            <img src="image/about-2.jpg" alt="Yummy video">
+            <a href="https://youtu.be/Y7f98aduVJ8?si=LWPkETxeqhr9pzBD" class="play-btn" target="_blank" rel="noopener" aria-label="Watch video"></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ################# why as start #################### -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+        <div class="boxes">
+        <div class="box1">
+            <h3>Why Choose Yummy</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos.
+                Autem tempore quibusdam vel necessitatibus optio ad corporis.
+                </p>
+                <div class="box1-btn">
+                <a class="btn-learn" href="#">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                </div>
+        </div>
+        <div class="box2">
+            <i class="bi bi-clipboard-data"></i>
+            <h4>Corporis voluptates officia eiusmod</h4>
+            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+        </div>
+
+        <div class="box3">
+            <i class="bi bi-gem"></i>
+            <h4>Ullamco laboris ladore lore pan</h4>
+            <p>Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt</p>
+        </div>
+
+        <div class="box4">
+            <i class="bi bi-inboxes-fill"></i>
+            <h4>Labore consequatur incidid dolore</h4>
+            <p>Aut suscipit aut cum nemo deleniti aut omnis.
+                Doloribus ut maiores omnis facere</p>
+        </div>
+
+        </div>
+    </div>
+    </section>
+    <!-- end section why us  -->
+
+    <!-- ############### start section bannar ################### -->
+    <section class="banner">
+        <img src="image/stats-bg.jpg" alt="">
+    <div class="container">
+        <div class="banner-items">
+            <div class="banner-item"><span>232</span><p>Clients</p></div>
+            <div class="banner-item"><span>521</span><p>Projects</p></div>
+            <div class="banner-item"><span>1453</span><p>Hours Of Support</p></div>
+            <div class="banner-item"><span>32</span><p>Workers</p></div>
+        </div>
+    </div>
+    </section>
+<!-- ############## end banner############# -->
+
+<!-- ######## start menu ######### -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="menu-title">
+                <h2>Our Menu</h2>
+                <p>Check Our <span>Yummy Menu</span></p>
+            </div>
+            <ul class="menu-tabs">
+                <li class="menu-tab">
+                    <a class="menu-link active" >
+                    <h4>Starters</h4>
+                    </a>
+                </li>
+
+                <li class="menu-tab">
+                    <a class="menu-link">
+                    <h4>Breakfast</h4>
+                    </a>
+                </li>
+                
+                <li class="menu-tab">
+                    <a class="menu-link">
+                    <h4>Lunch</h4>
+                    </a>
+                </li>
+                <li class="menu-tab">
+                    <a class="menu-link">
+                    <h4>Dinner</h4>
+                    </a>
+                </li>
+            </ul>
+<!-- ################menu-dishs############ -->
+            <div class="menu-content">
+
+        <div class="menu-header">
+        <p>Menu</p>
+        <h3>Starters</h3>
+        </div>
+
+        <div class="menu-items">
+
+        <div class="menu-item">
+            <img src="image/menu/menu-item-1.png" alt="">
+            <h4>Magnam Tiste</h4>
+            <p class="ingredients">Lorem, deren, trataro, filede, nerada</p>
+            <p class="price">$5.95</p>
+        </div>
+        <div class="menu-item">
+            <img src="image/menu/menu-item-2.png" alt="">
+            <h4>Aut Luia</h4>
+            <p class="ingredients">Lorem, deren, trataro, filede, nerada</p>
+            <p class="price">$14.95</p>
+        </div>
+        <div class="menu-item">
+            <img src="image/menu/menu-item-3.png" alt="">
+            <h4>Est Eligendi</h4>
+            <p class="ingredients">Lorem, deren, trataro, filede, nerada</p>
+            <p class="price">$8.95</p>
+        </div>
+        <div class="menu-item">
+            <img src="image/menu/menu-item-4.png" alt="">
+            <h4>Eos Luibusdam</h4>
+            <p class="ingredients">Lorem, deren, trataro, filede, nerada</p>
+            <p class="price">$12.95</p>
+        </div>
+        <div class="menu-item">
+            <img src="image/menu/menu-item-5.png" alt="">
+            <h4>Eos Luibusdam</h4>
+            <p class="ingredients">Lorem, deren, trataro, filede, nerada</p>
+            <p class="price">$12.95</p>
+        </div>
+        <div class="menu-item">
+            <img src="image/menu/menu-item-6.png" alt="">
+            <h4>Laboriosam Direva</h4>
+            <p class="ingredients">Lorem, deren, trataro, filede, nerada</p>
+            <p class="price">$9.95</p>
+        </div>
+        </div>
+        </div>
+    </div>
+</section>
+<!-- ######## end menu ########### -->
+
+<!-- ############start TESTIMONIALS ############ -->
+<section class="testimonials">
+    <div class="container">
+
+        <div class="test-title">
+            <h2>Testimonials</h2>
+            <p>What Are They <span>Saying About Us</span></p>
+        </div>
+
+        <div class="testimonial-list">
+
+            <!-- العميل 1 -->
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-photo">
+                    <img src="image/testimonials/testimonials-1.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- العميل 2 -->
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-photo">
+                    <img src="image/testimonials/testimonials-2.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- العميل 3 -->
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-photo">
+                    <img src="image/testimonials/testimonials-3.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- العميل 4 -->
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+                <div class="testimonial-photo">
+                    <img src="image/testimonials/testimonials-4.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ############# end testimonials ################ -->
+
+<!-- ############# start events ############# -->
+<section id="events" class="events">
+        <div class="event-list">
+            <div class="event-item">
+                <h3>Custom Parties</h3>
+                <div class="price">$99</div>
+                <p>Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.</p>
+            </div>
+            <div class="event-item">
+                <h3>Private Parties</h3>
+                <div class="price">$289</div>
+                <p>In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.</p>
+            </div>
+            <div class="event-item">
+                <h3>Birthday Parties</h3>
+                <div class="price">$499</div>
+                <p>Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.</p>
+            </div>
+            <div class="event-item">
+                <h3>Wedding Parties</h3>
+                <div class="price">$899</div>
+                <p>Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.</p>
+            </div>
+        </div>
+</section>
+<!-- ############# start chefs ############## -->
+<section id="chefs" class="chefs">
+    <div class="container">
+
+        <div class="chef-title">
+            <h2>Chefs</h2>
+            <p>Our <span>Proffesional Chefs</span></p>
+        </div>
+
+        <div class="chefs-teams">
+
+            <div class="chef">
+                <div class="chef-img">
+                    <img src="image/chefs/chefs-1.jpg" alt="">
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="chef-info">
+                    <h4>Walter White</h4>
+                    <span>Master Chef</span>
+                    <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                </div>
+            </div>
+
+            <div class="chef">
+                <div class="chef-img">
+                    <img src="image/chefs/chefs-2.jpg" alt="">
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="chef-info">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Patissier</span>
+                    <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                </div>
+            </div>
+
+            <div class="chef">
+                <div class="chef-img">
+                    <img src="image/chefs/chefs-3.jpg" alt="">
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="chef-info">
+                    <h4>William Anderson</h4>
+                    <span>Cook</span>
+                    <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ############### end chefs ############## -->
+
+<!-- ################ start a book table ################ -->
+<section id="book-a-table" class="booking">
+    <div class="container">
+
+        <div class="booking-title">
+            <h2>Book A Table</h2>
+            <p>Book Your <span>Stay With Us</span></p>
+        </div>
+
+        <div class="booking-box">
+
+            <div class="booking-img"></div>
+
+            <div class="booking-form-bg">
+                <form class="booking-form">
+
+                    <div class="form-fields">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="text" name="phone" placeholder="Your Phone" required>
+                        <input type="date" name="date" placeholder="Date" required>
+                        <input type="time" name="time" placeholder="Time" required>
+                        <input type="number" name="people" placeholder="# of people" required>
+                    </div>
+
+                    <textarea name="message" rows="5" placeholder="Message"></textarea>
+
+                    <div class="form-btn">
+                        <button type="submit">Book a Table</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- ################ end a book table ################## -->
+
+<!-- ################# start gallery ################# -->
+ <section id="gallery" class="gallery">
+    <div class="container">
+
+        <div class="gallery-title">
+            <h2>Gallery</h2>
+            <p>Check <span>Our Gallery</span></p>
+        </div>
+        <div class="gallery-images">
+            <img src="image/gallery/gallery-7.jpg" alt="">
+            <img src="image/gallery/gallery-8.jpg" alt="">
+            <img src="image/gallery/gallery-1.jpg" alt="">
+            <img src="image/gallery/gallery-2.jpg" alt="">
+            <img src="image/gallery/gallery-3.jpg" alt="">
+        </div>
+    </div>
+</section>
+<!--############# end gallery############### -->
+
+<!-- ############# start contact ############## -->
+<section id="contact" class="contact">
+    <div class="container">
+
+        <div class="contact-title">
+            <h2>Contact</h2>
+            <p>Need Help? <span>Contact Us</span></p>
+        </div>
+
+        <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" allowfullscreen></iframe>
+        </div>
+
+        <div class="contact-info">
+
+            <div class="info-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h3>Address</h3>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-regular fa-envelope"></i>
+                <div>
+                    <h3>Email Us</h3>
+                    <p>info@example.com</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                    <h3>Opening Hours</h3>
+                    <p><strong>Mon-Sat:</strong> 11AM - 23PM; <strong>Sunday:</strong> Closed</p>
+                </div>
+            </div>
+
+        </div>
+
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="subject" placeholder="Subject" required>
+            <textarea name="message" rows="6" placeholder="Message" required></textarea>
+            <div>
+                <button type="submit">Send Message</button>
+            </div>
+        </form>
+
+    </div>
+</section>
+<!-- ############## end contact ################ -->
+
+ <!-- ###### footer ###### -->
+<footer id="footer" class="footer">
+
+    <div class="container">
+        <div class="footer-columns">
+
+            <div class="footer-item">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                    <h4>Address</h4>
+                    <p>A108 Adam Street</p>
+                    <p>New York, NY 535022</p>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                    <h4>Contact</h4>
+                    <p><strong>Phone:</strong> +1 5589 55488 55</p>
+                    <p><strong>Email:</strong> info@example.com</p>
+                </div>
+            </div>
+
+            <div class="footer-item">
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                    <h4>Opening Hours</h4>
+                    <p><strong>Mon-Sat:</strong> 11AM - 23PM</p>
+                    <p><strong>Sunday:</strong> Closed</p>
+                </div>
+            </div>
+
+            <div>
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; Copyright <strong>Yummy</strong> All Rights Reserved</p>
+        <div class="credits">
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+        </div>
+    </div>
+
+</footer>
+</body>
+</html>
